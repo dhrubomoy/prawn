@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary = "A fast and nimble PDF generator for Ruby"
   spec.files =  Dir.glob("{examples,lib,spec,manual}/**/**/*") +
                 Dir.glob("data/{encodings,images,pdfs}/*") +
-                Dir.glob("data/fonts/{MustRead.html,*.afm}") +
+                Dir.glob("data/fonts/{MustRead.html,*.afm,*.ttf}") +
                 ["data/shift_jis_text.txt"] +
                 ["Rakefile", "prawn.gemspec", "Gemfile",
                  "COPYING", "LICENSE", "GPLv2", "GPLv3",
